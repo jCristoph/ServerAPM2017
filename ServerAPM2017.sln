@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerAPM2017", "ServerAPM2017\ServerAPM2017.csproj", "{8CDFBCEA-A4AA-48D0-977D-B9AF38889369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerAPMLibrary", "ServerAPMLibrary\ServerAPMLibrary.csproj", "{E0FF86C2-E0BF-4ECF-9150-794117AE2112}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CDFBCEA-A4AA-48D0-977D-B9AF38889369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDFBCEA-A4AA-48D0-977D-B9AF38889369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDFBCEA-A4AA-48D0-977D-B9AF38889369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDFBCEA-A4AA-48D0-977D-B9AF38889369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0FF86C2-E0BF-4ECF-9150-794117AE2112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0FF86C2-E0BF-4ECF-9150-794117AE2112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0FF86C2-E0BF-4ECF-9150-794117AE2112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0FF86C2-E0BF-4ECF-9150-794117AE2112}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5169FDDF-8104-4A51-AF8C-EDBE8DBD7B38}
+	EndGlobalSection
+EndGlobal
