@@ -70,7 +70,6 @@ namespace ServerAPMLibrary
             {
                 data = 0;
             }
-            Console.WriteLine("Liczba: " + data);
         }
         /// <summary>
         /// Metoda obliczająca potęgę 
@@ -78,7 +77,6 @@ namespace ServerAPMLibrary
         private void power()
         {
             data = (int)Math.Pow(data, 2);
-            Console.WriteLine("Wynik: " + data);
         }
         /// <summary>
         /// Metoda zamieniająca wynik typu int na tablicę bajtów
@@ -88,7 +86,7 @@ namespace ServerAPMLibrary
             if(data != 0)
                 dataOut = Encoding.UTF8.GetBytes(data.ToString());
             else
-                dataOut = Encoding.UTF8.GetBytes("");
+                dataOut = Encoding.UTF8.GetBytes(Environment.NewLine);
         }
         public override void Start()
         {
